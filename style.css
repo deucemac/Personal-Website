@@ -9,7 +9,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  /* background-color: rgba(0, 0, 0, 1); */
 }
 
 
@@ -42,10 +41,6 @@ p {
 /* } */
 
 
-header:hover {
-  opacity: .7;
-}
-
 .nav_links li {
   display: inline-block;
   padding: 0 20px;
@@ -70,12 +65,11 @@ h1 {
   justify-content: space-between;
   align-items: center;
   padding: 30px 10%;
-  transition: all 0.3s ease 0s;
+  /* transition: all 0.3s ease 0s; */
   height: 70px;
-	/* padding: 0 10px; */
 	position: fixed;
 	top: 0;
 	width: 100%;
 	z-index: 12;
-	box-sizing: border-box;
+	/* box-sizing: border-box; */
 }
