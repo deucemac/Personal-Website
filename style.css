@@ -1,16 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;500&display=swap');
 
-body {
-  background-color: rgba(0, 0, 0, 1)
-}
+/* body { */
+  /* background-color: rgba(0, 0, 0, 1) */
+/* } */
 
  * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: rgba(0, 0, 0, 1);
+  /* background-color: rgba(0, 0, 0, 1); */
 }
+
 
 ul {
   list-style: none;
@@ -31,13 +32,15 @@ p {
   color: #ffffff;
 }
 
-header {
-  display: flex;
+/* header { */
+  /* display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 30px 10%;
-  transition: all 0.3s ease 0s;
-}
+  transition: all 0.3s ease 0s; */
+  /* background-color: rgba(0, 0, 0, 1); */
+/* } */
+
 
 header:hover {
   opacity: .7;
@@ -56,6 +59,23 @@ header:hover {
   color: #38dcf5;
 }
 
+
 h1 {
   color: white;
+}
+
+.header-nav{
+  background-color: rgba(0,0,0,1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  transition: all 0.3s ease 0s;
+  height: 70px;
+	/* padding: 0 10px; */
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 12;
+	box-sizing: border-box;
 }
