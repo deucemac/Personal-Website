@@ -62,7 +62,7 @@ h1 {
 	z-index: 12;
 }
 
-/* Body of website */
+/* Intro Landing Page */
 .intro-section {
   position: absolute;
   top: 50%;
@@ -87,4 +87,69 @@ h1 {
   transform: scaleX(0);
   transition: all 0.3s ease-in-out;
 }
+
+.i-am{
+  color: white;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 30px;
+  font-weight: 100;
+  position: absolute;
+  top: 140%;
+  /* bottom: 100%; */
+}
+
+.scroll-icon{
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%);
+  transition: all 0.3s ease-out;
+  cursor: pointer;
+}
+.scroll-icon:hover {
+  bottom: 20px;
+}
+
+.discover{
+  color: white;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 50;
+  transform: translate(-50%);
+  padding-bottom: 5px;
+}
+/* Second Section 
+------------------------------*/
+
+.s2{
+  background-color: black;
+  border: 2px solid white;
+}
+
+.image-container{
+  height: 100%;
+  width: 100%;
+  background-image: url('./library.jpg');
+  background-size: cover;
+  background-position: center;
+  opacity: .4;
+  /* position: relative; */
+  color: white;
+}
+
+.text-container {
+  position: relative;
+  top: 70px;
+}
+
+.about-text{
+  border: 2px solid white;
+  height: 100px;
+}
+
+
+
+
+
+
+
 
