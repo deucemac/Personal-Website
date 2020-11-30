@@ -12,20 +12,24 @@
 <body class="test">
   <header>
     <div class="header-nav">
-      <p>Gerand</p>
+      <!-- <p>Gerand</p> -->
+      <img src="./logo.png" alt="logo" class="logo"/>
       <nav>
-        <ul class="nav_links">
-          <li><a href="#">About</a></li>
-          <li><a href="#">Skills</a></li>
-          <li><a href="#">Project</a></li>
-          <li><a href="#">Contact</a></li>
+        <ul class="nav_links" id="myMenu">
+          <li data-menuanchor="firstPage" class="active"><a href="#firstPage">About</a></li>
+          <li data-menuanchor="secondPage"><a href="#secondPage">Skills</a></li>
+          <li data-menuanchor="thirdPage"><a href="#thirdPage">Project</a></li>
+          <li data-menuanchor="lastPage"><a href="#lastPage">Contact</a></li>
         </ul>
       </nav>
     </div>
   </header>
   <div id="fullpage">
     <section class="section active s1">
-      <h1>HI</h1>
+      <div class="intro-section">
+        <h3 class="intro">Gerand McDowell<h3>
+        <div class="line"></div>
+      </div>
     </section>
     <section class="section s2">
       <h1>Hello</h1>

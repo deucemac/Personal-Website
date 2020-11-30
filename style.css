@@ -24,21 +24,11 @@ li, a {
   color: #ffffff;
   text-decoration: none;
 }
-p {
-  font-family: 'IBM Plex Mono', monospace;
-  font-size: 24px;
-  font-weight: 500;
-  color: #ffffff;
-}
 
-/* header { */
-  /* display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 30px 10%;
-  transition: all 0.3s ease 0s; */
-  /* background-color: rgba(0, 0, 0, 1); */
-/* } */
+.logo{
+  height: 50px;
+  width: 50px;
+}
 
 
 .nav_links li {
@@ -65,11 +55,36 @@ h1 {
   justify-content: space-between;
   align-items: center;
   padding: 30px 10%;
-  /* transition: all 0.3s ease 0s; */
   height: 70px;
 	position: fixed;
 	top: 0;
 	width: 100%;
 	z-index: 12;
-	/* box-sizing: border-box; */
 }
+
+/* Body of website */
+.intro-section {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.intro {
+  color: white;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 100;
+  font-size: 54px;
+  text-decoration: none;
+  /* transition: text-decoration 5s ease-out; */
+}
+
+.line {
+  height: 2px;
+  background-color: white;
+  width: 485px;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
+
