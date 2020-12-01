@@ -1,12 +1,30 @@
 let nameIntro = document.querySelector('.intro')
+let nameForPage = "Gerand McDowell"
+let printedName = ""
 // nameIntro.style.textDecoration = "none"
 let line = document.querySelector('.line')
 window.onload = function () {
+  console.log('hey')
   setTimeout(function () {
     line.style.transform = "scaleX(1)"
     line.style.visibility = "visible"
-  }, 800)
+  }, 4000)
+  let i = 0
+  let animation = setInterval(function () {
+    if (printedName.length < nameForPage.length) {
+      printedName = printedName + nameForPage[i]
+      nameIntro.innerHTML = printedName
+    }
+    i += 1
+  }, 250)
+  setTimeout(function () {
+    clearInterval(animation)
+    console.log('hello world')
+  }, 6000)
 }
+
+
+
 // You need to include your resume as well
 
 new fullpage('#fullpage', {

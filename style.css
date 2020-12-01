@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;500&display=swap');
 
-/* body { */
-  /* background-color: rgba(0, 0, 0, 1) */
-/* } */
-
  * {
   box-sizing: border-box;
   margin: 0;
@@ -76,7 +72,6 @@ h1 {
   font-weight: 100;
   font-size: 54px;
   text-decoration: none;
-  /* transition: text-decoration 5s ease-out; */
 }
 
 .line {
@@ -119,34 +114,10 @@ h1 {
 }
 /* Second Section 
 ------------------------------*/
-
-.s2{
-  /* background-color: black;*/
-  border: 2px solid white; 
-  /* z-index: -1; */
-}
-
-/* .image-container{
-  height: 100%;
-  width: 100%;
-  background-image: url('./library.jpg');
-  background-size: cover;
-  background-position: center;
-  color: white;
-  filter: brightness(20%);
-  z-index: 1;
-}
-
-.text-container {
-  position: relative;
-  top: 70px;
-  
-}
-
-.about-text{
+.about-container{
   border: 2px solid white;
-  height: 100px;
-} */
+}
+
 img.library {
   width: 100%;
   height: 100%;
@@ -158,8 +129,11 @@ img.library {
   filter: brightness(40%)
 }
 
-.world_text{
+.about-me {
   color: white;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 30px;
+  font-weight: 100;
 }
 
 
