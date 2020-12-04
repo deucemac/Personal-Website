@@ -100,6 +100,7 @@ h1 {
   transform: translate(-50%);
   transition: all 0.3s ease-out;
   cursor: pointer;
+  padding-left: 100px;
 }
 .scroll-icon:hover {
   bottom: 20px;
@@ -249,4 +250,37 @@ img.arrow3{
 }
 
 /*--------
-Project Display    */
+Side Display    */
+
+.side-tab{
+  position:fixed;
+  bottom: 20%;
+  right: -5.3%;
+  padding: 15px 30px;
+  border-radius: 10px 10px 0 0;
+  background-color: white;
+  color: black;
+  transform: rotate(-90deg);
+  box-shadow: 0 -3px 7px rgba(0, 0, 0, .3);
+  font-family: 'IBM Plex Mono', monospace;
+  width: 13%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-media-icon{
+  width: 34px;
+  height: 34px;
+}
+
+/* --------
+projects Display   
+---------- */
+
+.project-display{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%)
+}
+
