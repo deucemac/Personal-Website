@@ -278,10 +278,63 @@ projects Display
 ---------- */
 
 .project-display{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, 50%)
+  margin: auto;
+  width: 75%;
+  height: 68%;
+  border: 2px solid white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
+
+.project-img{
+  width: 35%;
+  height: 40%;
+  object-fit: cover;
+  padding: 10px;
+  transition: all .4s ease-out;
+  opacity: .6;
+  z-index: 1;
+  /* text-align: center; */
+}
+.project-img:hover{
+  width: 39%;
+  height: 45%;
+  opacity: .9;
+  z-index: 3;
+}
+
+.description-tag{
+  position: absolute;
+}
+
+.t-1{
+  bottom: 66%;
+  background-color: rgb(45, 46, 50);
+  width: 200px;
+  left: 18%;
+  border-radius: 5%;
+  padding: 10px;
+  font-family: 'IBM Plex Mono', monospace;
+  color: white;
+  z-index: 2;
+  /* border-radius: 25%; */
+}
+.t-2{
+
+}
+.t-3{
+
+}
+.t-4{
+
+}
+
+
+
+
+
+
 
 

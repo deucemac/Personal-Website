@@ -30,7 +30,8 @@ window.onload = function () {
 
 new fullpage('#fullpage', {
   // sectionsColor: ['#000000', 'none', '#F2AE72', '#5C832F', '#B8B89F'],
-  sectionsColor: ['#000000', 'none', '#0a1573', '#5C832F', '#B8B89F'],
+  // sectionsColor: ['#000000', 'none', '#0a1573', '#5C832F', '#B8B89F'],
+  sectionsColor: ['#000000', 'none', '#01272D', '#5C832F', '#B8B89F'],
   autoScrolling: true,
   navigation: true,
   navigationPosition: 'right',
