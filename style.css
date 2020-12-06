@@ -373,7 +373,7 @@ The contact Form */
   /* background-image: url("./victor-xok-eHRzs3zunvQ-unsplash.jpg"); */
   /* filter: brightness(20%); */
   /* background-size: cover; */
-  display: flex;
+  /* display: flex; */
   /* justify-content: center; */
 }
 img.s4img{
@@ -449,6 +449,14 @@ button[type="submit"]:hover{
   color: white;
 }
 
+#status{
+  color: white;
+  height: 50px;
+  font-family: 'IBM Plex Mono', monospace; 
+  font-weight: 100;
+  text-align: center;
+  font-size: 20px;
+}
 
 
 
