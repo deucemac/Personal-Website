@@ -73,9 +73,7 @@ function ajax(method, url, data, success, error) {
 // You need to include your resume as well
 
 new fullpage('#fullpage', {
-  // sectionsColor: ['#000000', 'none', '#F2AE72', '#5C832F', '#B8B89F'],
-  // sectionsColor: ['#000000', 'none', '#0a1573', '#5C832F', '#B8B89F'],
-  // sectionsColor: ['#000000', 'none', '#01272D', '#000000'],
+  licenseKey: '',
   sectionsColor: ['#000000', 'none', '#01272D'],
   autoScrolling: true,
   navigation: true,
