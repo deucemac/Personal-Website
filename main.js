@@ -18,7 +18,6 @@ window.onload = function () {
       i += 1
     }, 250)
     setTimeout(function () {
-      console.log('hello world')
       clearInterval(animation)
     }, 6000)
   }, 800)
