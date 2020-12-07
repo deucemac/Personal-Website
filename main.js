@@ -72,14 +72,14 @@ function ajax(method, url, data, success, error) {
 
 // You need to include your resume as well
 
-new fullpage('#fullpage', {
-  licenseKey: '',
-  sectionsColor: ['#000000', 'none', '#01272D'],
-  autoScrolling: true,
-  navigation: true,
-  navigationPosition: 'right',
-  navigationTooltips: ['Me', 'About', 'Projects', 'Contact'],
-  anchors: ['firstPage', 'secondPage', 'thirdPage', 'lastPage'], 
-  menu: '#myMenu'
-});
+// new fullpage('#fullpage', {
+//   licenseKey: '',
+//   sectionsColor: ['#000000', 'none', '#01272D'],
+//   autoScrolling: true,
+//   navigation: true,
+//   navigationPosition: 'right',
+//   navigationTooltips: ['Me', 'About', 'Projects', 'Contact'],
+//   anchors: ['firstPage', 'secondPage', 'thirdPage', 'lastPage'], 
+//   menu: '#myMenu'
+// });
 

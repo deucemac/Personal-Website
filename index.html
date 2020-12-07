@@ -140,7 +140,19 @@
 
 
   <script type="text/javascript" src="./node_modules/fullpage.js/dist/fullpage.js"></script>
-  <script src="./main.js"></script>
+  <script type="text/javascript">
+    let myFullpage = new fullpage('#fullpage', {
+      licenseKey: '',
+      sectionsColor: ['#000000', 'none', '#01272D'],
+      autoScrolling: true,
+      navigation: true,
+      navigationPosition: 'right',
+      navigationTooltips: ['Me', 'About', 'Projects', 'Contact'],
+      anchors: ['firstPage', 'secondPage', 'thirdPage', 'lastPage'], 
+      menu: '#myMenu'
+    });
+  </script>
+  <!-- <script src="./main.js"></script> -->
 </body>
 
 </html>
