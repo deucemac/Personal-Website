@@ -185,68 +185,7 @@ img.arrow3{
 }
 /* Inner Text for about me stuff 
 ---------------------------------- */
-/*---trying different css approach temporarily*/
-/* .about-me {
-  color: white;
-  font-family: 'IBM Plex Mono', monospace;
-  font-size: 30px;
-  font-weight: 100;
-}
 
-/* .resume-box{
-  position: relative;
-} 
-/* .resume{
-  width: 100px;
-  height: 100px;
-  background-color: white;
-  border-radius: 15%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%)
-} */
-
-/* "Hi I'm Gerand" box*/
-/* .i-do-this{
-  font-size: 20px;
-  font-weight: 100;
-  padding-top: 20px;
-} */
-/* "list of skills" box */
-
-/* .list-of-skills{
-  padding-top: 20px;
-  font-size: 20px;
-  font-weight: 100;
-  text-align: left;
-  display: flex;
-  flex-wrap: wrap;
-  height: 70%;
-}
-.lang{
-  width: 30%;
-} */
-/* Education box */
-/* .education-container{
-  position: relative;
-}
-.education1{
-  padding-top: 20px;
-  position: absolute;
-  left: 0;
-  font-size: 20px;
-  font-weight: 100;
-}
-.education2{
-  padding-top: 20px;
-  position: absolute;
-  left: 0;
-  top: 30px;
-  font-size: 20px;
-  font-weight: 100;
-} */
-/* END OF TEMPORARY CSS*/
 .about-container{
   width: 60%;
   height: 70%;
