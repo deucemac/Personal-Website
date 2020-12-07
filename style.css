@@ -264,6 +264,7 @@ img.arrow3{
   border-radius: 4px;
   transition: all .3s ease;
   margin: 0 auto;
+  cursor: pointer;
 }
 .resume-button:hover{
   color: white;
@@ -284,7 +285,7 @@ img.arrow3{
 /*--------
 Side Display    */
 
-.side-tab{
+/* .side-tab{
   position:fixed;
   bottom: 20%;
   right: -5.3%;
@@ -295,7 +296,7 @@ Side Display    */
   transform: rotate(-90deg);
   box-shadow: 0 -3px 7px rgba(0, 0, 0, .3);
   font-family: 'IBM Plex Mono', monospace;
-  width: 13%;
+  width: 23%;
   display: flex;
   justify-content: space-between;
 }
@@ -304,6 +305,29 @@ Side Display    */
   width: 34px;
   height: 34px;
 }
+.smi{
+  padding-left: 20px;
+} */
+.side-tab{
+  position: fixed;
+  bottom: 12%;
+  left: 96%;
+  padding: 15px 30px;
+  border-radius: 10px 0 0 10px;
+  box-shadow: 0 -3px 7px rgba(0, 0, 0, .3);
+  width: 4%;
+  height: 19vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-around;
+}
+
+
+.fa {
+  color: #38dcf5;
+}
+
 
 /* --------
 projects Display   
@@ -504,5 +528,4 @@ button[type="submit"]:hover{
     /* margin-left: 20px; */
   }
 }
-
 

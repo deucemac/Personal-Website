@@ -69,6 +69,7 @@ function ajax(method, url, data, success, error) {
 
 
 
+
 // You need to include your resume as well
 
 // new fullpage('#fullpage', {
