@@ -118,8 +118,7 @@ h1 {
 .s2{
   /* position:relative; */
 }
-.about-container{
-  /* border: 2px solid white; */
+/* .about-container{
   height: 600px;
   width: 70%;
   display: flex;
@@ -127,7 +126,8 @@ h1 {
   color: white;
   font-family: 'IBM Plex Mono', monospace;
   margin-left: 20px;
-}
+} */
+
 
 img.library {
   width: 100%;
@@ -167,10 +167,11 @@ img.arrow3{
   filter: brightness(70%);
   /* transform: translate(50%, 75%); */
 }
+
 .headshot:hover{
   filter: brightness(100%)
 }
-
+/*---trying different css approach temporarily*/
 .text-box{
   width: 40%;
 }
@@ -184,18 +185,18 @@ img.arrow3{
 }
 /* Inner Text for about me stuff 
 ---------------------------------- */
-
-.about-me {
+/*---trying different css approach temporarily*/
+/* .about-me {
   color: white;
   font-family: 'IBM Plex Mono', monospace;
   font-size: 30px;
   font-weight: 100;
 }
 
-.resume-box{
+/* .resume-box{
   position: relative;
-}
-.resume{
+} 
+/* .resume{
   width: 100px;
   height: 100px;
   background-color: white;
@@ -204,22 +205,20 @@ img.arrow3{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%)
-  /* box-shadow: 0 0 10px rgba(270,250,250,1); */
-}
+} */
 
 /* "Hi I'm Gerand" box*/
-.i-do-this{
+/* .i-do-this{
   font-size: 20px;
   font-weight: 100;
   padding-top: 20px;
-}
+} */
 /* "list of skills" box */
 
-.list-of-skills{
+/* .list-of-skills{
   padding-top: 20px;
   font-size: 20px;
   font-weight: 100;
-  /* border: 2px solid white; */
   text-align: left;
   display: flex;
   flex-wrap: wrap;
@@ -227,10 +226,9 @@ img.arrow3{
 }
 .lang{
   width: 30%;
-  /* background-color: rgba(0, 0, 0, .4); */
-}
+} */
 /* Education box */
-.education-container{
+/* .education-container{
   position: relative;
 }
 .education1{
@@ -247,6 +245,101 @@ img.arrow3{
   top: 30px;
   font-size: 20px;
   font-weight: 100;
+} */
+/* END OF TEMPORARY CSS*/
+.about-container{
+  width: 60%;
+  height: 70%;
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 100;
+  color: white;
+  /*--testing--*/
+  position: relative;
+}
+.about-container:after{
+  content: "";
+  position: absolute;
+  top:0;
+  bottom:0;
+  left:50%;
+  border-left: 2px solid whitesmoke;
+  transform: translate(-50%);
+}
+/* .about-container:after{
+  content: "";
+  position: absolute;
+  top: 50%;
+  left:0;
+  right: 0;
+  border-top: 2px solid whitesmoke;
+} */
+.text-box{
+  width: 40%;
+  height: 40%;
+  border-bottom: 2px solid white;
+}
+.about-me{
+  font-size: 24px;
+  margin-bottom: 15%;
+}
+.skills{
+  width: 70%;
+  height: 30%;
+  margin: 20% auto;
+  background-color: rgba(36, 36, 36, .3);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+.lang{
+  padding: 10px;
+}
+.resume-box{
+  height: 70%;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.resume{
+  font-size: 24px;
+}
+.fa, .fa-file-text {
+  color: white;
+  font-size: 24px;
+}
+.resume-button{
+  border: 2px solid #38dcf5;;
+  outline: none;
+  width: 50%;
+  height: 50px;
+  font-family: 'IBM Plex Mono', monospace; 
+  font-weight: 100;
+  font-size: 30px;
+  background-color: transparent;
+  color:#38dcf5;
+  border-radius: 4px;
+  transition: all .3s ease;
+  margin: 0 auto;
+}
+.resume-button:hover{
+  color: white;
+  background-color: #38dcf5;
+  border: 2px solid white;
+}
+.education{
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 100;
+  font-size: 22px;
+  text-align: center;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 /*--------
@@ -459,6 +552,18 @@ button[type="submit"]:hover{
 }
 
 
-
+@media screen and (max-width: 1145px) {
+  .about-container{
+    border: 2px solid white;
+    height: 80%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    color: white; 
+    font-family: 'IBM Plex Mono', monospace;
+    /* margin-left: 20px; */
+  }
+}
 
 
