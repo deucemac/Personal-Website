@@ -285,29 +285,6 @@ img.arrow3{
 /*--------
 Side Display    */
 
-/* .side-tab{
-  position:fixed;
-  bottom: 20%;
-  right: -5.3%;
-  padding: 15px 30px;
-  border-radius: 10px 10px 0 0;
-  background-color: white;
-  color: black;
-  transform: rotate(-90deg);
-  box-shadow: 0 -3px 7px rgba(0, 0, 0, .3);
-  font-family: 'IBM Plex Mono', monospace;
-  width: 23%;
-  display: flex;
-  justify-content: space-between;
-}
-
-.social-media-icon{
-  width: 34px;
-  height: 34px;
-}
-.smi{
-  padding-left: 20px;
-} */
 .side-tab{
   position: fixed;
   bottom: 12%;
@@ -526,6 +503,16 @@ button[type="submit"]:hover{
     color: white; 
     font-family: 'IBM Plex Mono', monospace;
     /* margin-left: 20px; */
+  }
+
+  
+  .fa-file-text {
+    color: white;
+    font-size: 16px;
+  }
+  .resume-button{
+    font-size:14px;
+    /* visibility: hidden; */
   }
 }
 
