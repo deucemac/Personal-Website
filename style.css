@@ -502,17 +502,59 @@ button[type="submit"]:hover{
     /* flex-wrap: wrap; */
     color: white; 
     font-family: 'IBM Plex Mono', monospace;
-    /* margin-left: 20px; */
+    margin-left: 20px;
   }
 
-  
+  .text-box{
+    width: 40%;
+    height: 40%;
+    border-bottom: 2px solid white;
+  }
   .fa-file-text {
     color: white;
     font-size: 16px;
   }
   .resume-button{
     font-size:14px;
-    /* visibility: hidden; */
+  }
+  .headshot{
+    width: 150px; height: 150px;
+  }
+  .skills{
+    background-color: rgba(36, 36, 36, .3);
+  }
+  .about-container{
+    border: 0px solid transparent;
+  }
+
+  
+
+}
+
+@media screen and (max-width: 1335px) {
+  .side-tab{
+    position: fixed;
+    bottom: 12%;
+    left: 93%;
+    padding: 15px 30px;
+    border-radius: 10px 0 0 10px;
+    box-shadow: 0 -3px 7px rgba(0, 0, 0, .3);
+    width: 7%;
+    height: 19vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+  }
+
+  .fa-file-text {
+    color: white;
+    font-size: 14px;
+  }
+  .resume-button{
+    font-size:14px;
   }
 }
+
+
 
