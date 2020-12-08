@@ -636,4 +636,51 @@ footer{
   }
 }
 
+@media screen and (max-width: 400px){
+  .header-nav{
+    height: 55px;
+  }
+  .nav_links li {
+    padding: 0 5px;
+  }
+  .logo{
+    width: 25px; height: 25px;
+  }
+  li{
+    font-size: 10px;
+    padding: 0;
+  }
+  .header-nav, ul{
+    display: flex;
+  }
+  .intro-section{
+    /* border: 2px solid white; */
+    width: 50%;
+  }
+  .intro{
+    font-size: 25px;
+  }
+  .i-am{
+    font-size: 15px
+  }
+
+  /*--Section 2--*/
+  .about-me{
+    font-size: 15px;
+  }
+  .i-do-this{
+    font-size: 12px;
+  }
+  .resume-button{
+    font-size:12px;
+    width: 90px;
+  }
+  .education{
+    font-size: 14px;
+  }
+  button[type="submit"]{
+    width: 60%;
+  }
+}
+
 
