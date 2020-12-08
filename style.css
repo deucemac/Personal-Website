@@ -317,76 +317,87 @@ projects Display
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
 }
-
+.project-div{
+  width: 40%; height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
 .project-img{
-  width: 35%;
-  height: 40%;
+  width: 55%;
+  height: 70%;
   object-fit: cover;
-  padding: 10px;
+  /* padding: 10px;*/
   transition: all .4s ease-out;
   opacity: .6;
   z-index: 1;
   /* border: 2px solid white; */
-  padding: 30px;
-}
+  /*
+  padding: 30px; */
+} 
 .project-img:hover{
-  width: 39%;
-  height: 45%;
+  width: 60%;
+  height: 76%;
   opacity: .9;
   z-index: 3;
 }
 
-.description-tag{
-  position: absolute;
-}
-
 .t-1{
-  bottom: 66%;
-  background-color: rgb(45, 46, 50);
-  width: 200px;
-  left: 18%;
-  border-radius: 5%;
-  padding: 10px;
+  position: absolute;
   font-family: 'IBM Plex Mono', monospace;
+  font-weight: 100;
+  font-size: 12px;
   color: white;
+  width: 30%;
+  background-color: rgb(36, 36, 36);
+  top: 0;
+  left: 0;
   z-index: 2;
-  /* border-radius: 25%; */
+  padding: 10px;
 }
 .t-2{
-  bottom: 68%;
-  background-color: rgb(45, 46, 50);
-  width: 200px;
-  left: 70%;
-  border-radius: 5%;
-  padding: 10px;
+  position: absolute;
   font-family: 'IBM Plex Mono', monospace;
+  font-weight: 100;
+  font-size: 12px;
   color: white;
+  width: 30%;
+  background-color: rgb(36, 36, 36);
+  top: 0;
+  right: 0;
   z-index: 2;
+  padding: 10px;
 }
 .t-3{
-  bottom: 28%;
-  background-color: rgb(45, 46, 50);
-  width: 200px;
-  left: 18%;
-  border-radius: 5%;
-  padding: 10px;
+  position: absolute;
   font-family: 'IBM Plex Mono', monospace;
+  font-weight: 100;
+  font-size: 12px;
   color: white;
+  width: 30%;
+  background-color: rgb(36, 36, 36);
+  top: 0;
+  left: 0;
   z-index: 2;
+  padding: 10px;
 }
 .t-4{
-  bottom: 32%;
-  background-color: rgb(45, 46, 50);
-  width: 200px;
-  left: 70%;
-  border-radius: 5%;
-  padding: 10px;
+  position: absolute;
   font-family: 'IBM Plex Mono', monospace;
+  font-weight: 100;
+  font-size: 12px;
   color: white;
+  width: 30%;
+  background-color: rgb(36, 36, 36);
+  top: 0;
+  right: 0;
   z-index: 2;
+  padding: 10px;
 }
+
+/*--test area end*/
 
 .github-link{
  width: 22px;
@@ -402,13 +413,6 @@ projects Display
 /*--------------
 The contact Form */
 
-.s4{
-  /* background-image: url("./victor-xok-eHRzs3zunvQ-unsplash.jpg"); */
-  /* filter: brightness(20%); */
-  /* background-size: cover; */
-  /* display: flex; */
-  /* justify-content: center; */
-}
 img.s4img{
   width: 100%;
   height: 100%;
@@ -491,6 +495,22 @@ button[type="submit"]:hover{
   font-size: 20px;
 }
 
+footer{
+  height: 12%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  color: white;
+  box-shadow: 0 -3px 6px rgba(0, 0, 0, .3);
+  font-family: 'IBM Plex Mono', monospace; 
+  background-color: rgba(36, 36, 36, .6);
+}
+.footer{
+  display: flex;
+  justify-content: center;
+  height: 70%;
+  align-items: center;
+}
 
 @media screen and (max-width: 1145px) {
   .about-container{
@@ -554,7 +574,66 @@ button[type="submit"]:hover{
   .resume-button{
     font-size:14px;
   }
+  .description-tag{
+    visibility: hidden;
+  }
+
+  .project-display{
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+  }
+  .project-div{
+    height:20%;
+    margin: 0 auto;
+  }
 }
 
+@media screen and (max-width: 815px){
+  .headshot{
+    visibility: hidden;
+  }
+  .side-tab{
+    left: 90%;
+    width: 10%;
+  }
+}
+@media screen and (max-width: 600px){
+  .about-container{
+    border: 2px solid white;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .side-tab{
+    left: 85%;
+    width: 15%;
+  }
+  .header-nav{
+    height: 16%;
+  }
+  .header-nav, ul{
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .intro{
+    font-size: 34px;
+  }
+  .i-am{
+    font-size: 24px;
+  }
+  .header-nav{
+    height: 16%;
+  }
+  .header-nav, ul{
+    display: flex;
+  }
+  .about-container{
+    border-bottom: hidden;
+    border-right: hidden;
+    border-top: hidden;
+  }
+}
 
 
