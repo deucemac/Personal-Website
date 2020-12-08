@@ -638,7 +638,10 @@ footer{
 
 @media screen and (max-width: 400px){
   .header-nav{
-    height: 55px;
+    height: 45px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
   }
   .nav_links li {
     padding: 0 5px;
@@ -655,6 +658,7 @@ footer{
   }
   .intro-section{
     /* border: 2px solid white; */
+    margin: 0 auto;
     width: 50%;
   }
   .intro{
@@ -673,7 +677,7 @@ footer{
   }
   .resume-button{
     font-size:12px;
-    width: 90px;
+    width: 100px;
   }
   .education{
     font-size: 14px;
