@@ -20,7 +20,7 @@ window.onload = function () {
     setTimeout(function () {
       clearInterval(animation)
     }, 6000)
-  }, 800)
+  }, 300)
 }
 
 window.addEventListener("DOMContentLoaded", function() {

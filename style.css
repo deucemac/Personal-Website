@@ -638,8 +638,9 @@ footer{
 
 @media screen and (max-width: 400px){
   .header-nav{
-    height: 45px;
-    border: 2px solid white;
+    /* height: 45px; */
+    height: 7%;
+    /* border: 2px solid white; */
     display: flex;
     justify-content: center;
   }
