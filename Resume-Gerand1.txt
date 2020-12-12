@@ -1,0 +1,64 @@
+﻿Gerand
+McDowell
+Software Engineer 
+
+
+	  
+
+My Portfolio:
+https://gerandmcdowell.surge.sh/
+678.602.2442
+deucemac123@gmail.com
+
+
+
+
+  
+ /gerand-mcdowell     https://github.com/deucemac
+
+
+	ㅡ
+Skills
+	  
+
+
+
+* HTML
+	* CSS
+	* JS
+	* React
+	* Express
+	* PSQL
+	* Ruby
+	* Rails
+	* Node.js
+	* MongoDB
+	* Heroku
+	* Surge
+	
+
+	ㅡ
+Experience
+	  
+
+Chef’s Choice/ Full Stack Developer
+June 2020 - NYC
+Collaborated with a team of UX Designers and Engineers  to build a full CRUD application using MongoDB, JS React, and Express.  Created a RESTful api to find and create recipes. 
+Can’t Shut App / Full Stack Developer
+July  2020,  NYC
+Developed a messaging app for users  to login, create a thread,  and talk to other users.   Developed with Ruby on Rails and JS React.  Uses RESTful api.  
+Buddy-List / Full StackDeveloper
+October 2020, NYC
+Personal project on Rails to use web sockets to create live updates from other user accounts.  Users can send friend requests to other users and see who logs on in real time.  Full CRUD application with React and Rails.
+Church Street School for Music & Art(Tribeca) / Outreach Director
+October 2018- March 2020, NYC
+Directed and taught children’s music ensembles in New York City
+	ㅡ
+Education
+	  
+
+General Assembly / Software Engineering Immersive
+April  2020 - July 2020,  NYC
+Certificate / Software Engineering Immersive
+Michigan State University / Bachelor of Arts - Jazz Studies
+August  2015 - May 2018,  East Lansing
